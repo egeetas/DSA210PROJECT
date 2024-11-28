@@ -1,74 +1,72 @@
 # DSA210PROJECT
 
-# Weekday vs Weekend Walking Distance Analysis
+# **Weekday vs Weekend Walking Distance Analysis**
 
-#Description
+## **Description**
 
-Sabanci University DSA210 - Introduction to Data Science Course, Fall 2024-2025 Term Project by Ege Taş (Student ID: 32378).
-This project aims to analyze the differences in my walking distance between weekdays and weekends, using data exported from the Apple Health app.
+Sabanci University **DSA210 - Introduction to Data Science** Course, Fall **2024-2025** Term Project by **Ege Taş (Student ID: 32378)**.  
+This project analyzes my walking distance data, obtained from the Apple Health app, to understand the differences in physical activity levels between weekdays and weekends.
 
-The hypothesis tested is:
-"My walking distance is higher on weekdays because I spend more time at school and attending classes, whereas on weekends, I typically drive, which reduces my physical activity levels."
+The hypothesis tested in this project is:  
+*"My walking distance is higher on weekdays because I spend more time at school and attending classes, whereas on weekends, I typically drive, which reduces my physical activity levels."*
 
-For the final report, see here.
+For the final report, see **[here](https://your-report-link)**.
 
-#Table of Contents
+---
 
-Motivation
+## **Table of Contents**
+- **[Motivation](#motivation)**  
+- **[Findings](#findings)**  
+  - [Overall Weekly Trends](#overall-weekly-trends)  
+  - [Impact of Driving on Activity](#impact-of-driving-on-activity)  
+- **[Limitations](#limitations)**  
+- **[Future Work](#future-work)**  
 
-Data Collection and Processing
+---
 
-Findings
+## **Motivation**
 
-Overall Weekly Trends
-Impact of Driving on Activity
-Limitations
+The idea for this project originated from my interest in understanding how my daily routines affect my physical activity levels. Walking distance, as a key metric tracked by the Apple Health app, serves as an indicator of my movement throughout the day.
 
-Future Work
+The hypothesis tested in this project is that my walking distance is higher on weekdays due to school-related activities. However, on weekends, my physical activity decreases because I often drive, reducing the need for walking. This analysis provides insights into how my weekly schedule influences my physical activity.
 
-Motivation
+---
 
-This project aims to explore how my daily routines affect my physical activity levels, particularly focusing on walking distance, a key metric tracked by the Apple Health app. Walking distance provides valuable insights into how I allocate my time and energy during school days and weekends.
+## **Findings**
 
-The hypothesis tested in this project is that my walking distance is higher on weekdays due to increased activity during school hours, such as moving between classes and buildings on campus. In contrast, weekends are hypothesized to involve less walking due to frequent car usage and fewer structured activities.
+### **Overall Weekly Trends**
+- **Weekdays:** Walking distance is consistently higher on weekdays, likely due to increased movement between classes and buildings on campus.  
+- **Weekends:** Walking distances show greater variability, with an overall lower median compared to weekdays. This aligns with my reduced activity levels during weekends when I’m not bound by school routines.
 
-Data Collection and Processing
+### **Impact of Driving on Activity**
+1. **Driving Weekends vs Non-Driving Weekends:**  
+   - On weekends when I drive, my walking distance is significantly reduced compared to non-driving weekends.
+   - This supports the hypothesis that driving directly impacts physical activity levels.  
 
-Data Collection
-I obtained the data from the Apple Health app by requesting an export file through the app's settings. This file was in XML format, containing detailed records of my daily physical activities, including Walking+Running Distance, along with timestamps and metadata.
+2. **Non-Driving Weekends:**  
+   - These weekends show walking distances that are still lower than weekdays but higher than driving weekends, reflecting leisure activities that might involve some walking.
 
-Data Parsing and Analysis Plan
-Parsing the Data: The XML data was parsed using Python to extract relevant records specifically for Walking+Running Distance. This included timestamps and daily totals for walking distances.
-Categorization: Days were categorized as:
-Weekdays (Monday-Friday) for school days.
-Weekends (Saturday-Sunday), with some weekends labeled as driving days to reflect reduced physical activity.
-Exploratory Data Analysis (EDA): Significant EDA techniques were applied in Python to:
-Visualize distributions of walking distances for weekdays and weekends.
-Compare walking distances on driving and non-driving weekends.
-Highlight trends and patterns using boxplots, histograms, and summary statistics.
-Findings
+---
 
-Overall Weekly Trends
-Weekdays: Walking distance is consistently higher on weekdays, likely due to increased movement during school hours.
-Weekends: Walking distances are lower and more variable, aligning with reduced activity levels when structured routines are absent.
-Impact of Driving on Activity
-Driving Weekends vs Non-Driving Weekends:
-On weekends when I drove, walking distances were significantly lower compared to non-driving weekends.
-This supports the hypothesis that driving negatively impacts physical activity levels.
-Non-Driving Weekends:
-These weekends show walking distances that, while lower than weekdays, are higher than driving weekends, reflecting leisure activities.
-Limitations
+## **Limitations**
 
-Data-Specific Limitations
-Limited Scope of Data: The analysis focuses only on walking distances and does not account for other physical activities (e.g., gym workouts or cycling).
-Simulated Driving Data: Driving days were manually labeled based on personal routines, which may not fully reflect actual driving habits.
-Personal Limitations
-Privacy Concerns: Certain sensitive data, such as specific timestamps, were excluded to maintain privacy.
-Knowledge and Resources: As a student, my knowledge and resources are limited, which might constrain the depth of the analysis.
-Future Work
+### **Data-Specific Limitations**
+1. **Limited Scope of Data:** The analysis focuses only on walking distances and does not account for other physical activities, such as gym workouts or cycling.  
+2. **Simulated Driving Data:** Driving days were manually labeled based on personal routines, which may not fully reflect actual driving habits.
 
-Hourly Trends: Extend the analysis to identify peak activity periods during weekdays and weekends.
-Seasonal Analysis: Include walking distance data across seasons to observe variations in activity levels.
-Integration of Additional Metrics: Incorporate calorie data, step counts, and heart rate measurements for a more comprehensive analysis.
-Lifestyle Correlations: Explore correlations between walking distance and other metrics, such as sleep duration or screen time.
-This project demonstrates how data science techniques can be applied to gain insights into personal routines and physical activity patterns. For further details, refer to the final report here.
+### **Personal Limitations**
+1. **Privacy Concerns:** Some metadata from the dataset, such as timestamps and sensitive activity details, were excluded for privacy reasons.  
+2. **Knowledge and Resources:** As a student, my experience with advanced data analysis techniques is still growing. While I used effective methods, further improvements could be made with more experience.
+
+---
+
+## **Future Work**
+
+1. **Hourly Trends:** Analyzing walking data by hour of the day to identify peak activity times on weekdays and weekends.  
+2. **Seasonal Analysis:** Extending the dataset to observe differences in walking distances across different seasons (summer vs winter).  
+3. **Inclusion of Additional Metrics:** Adding calorie data, step counts, or other metrics from Apple Health for a more comprehensive analysis.  
+4. **Lifestyle Correlations:** Exploring correlations between walking distances and other lifestyle factors, such as sleep quality or screen time.  
+
+---
+
+This project demonstrates how data science principles can be applied to gain insights into personal habits and routines. For more details, check the final report **[here](https://your-report-link)**.  
