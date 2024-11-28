@@ -1,8 +1,8 @@
 # DSA210PROJECT
 
-Weekday vs Weekend Walking Distance Analysis
+# Weekday vs Weekend Walking Distance Analysis
 
-Description
+#Description
 
 Sabanci University DSA210 - Introduction to Data Science Course, Fall 2024-2025 Term Project by Ege Taş (Student ID: 32378).
 This project aims to analyze the differences in my walking distance between weekdays and weekends, using data exported from the Apple Health app.
@@ -12,7 +12,7 @@ The hypothesis tested is:
 
 For the final report, see here.
 
-Table of Contents
+#Table of Contents
 
 Motivation
 
