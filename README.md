@@ -10,7 +10,7 @@ This project analyzes my walking distance data, obtained from the Apple Health a
 The hypothesis tested in this project is:  
 *"My walking distance is higher on weekdays because I spend more time at school and attending classes, whereas on weekends, I typically drive, which reduces my physical activity levels."*
 
-For the final report, see **[here](https://your-report-link)**.
+
 
 ---
 
@@ -69,4 +69,4 @@ The hypothesis tested in this project is that my walking distance is higher on w
 
 ---
 
-This project demonstrates how data science principles can be applied to gain insights into personal habits and routines. For more details, check the final report **[here](https://your-report-link)**.  
+
