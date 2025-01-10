@@ -66,16 +66,16 @@ The dataset was anonymized to protect sensitive information, focusing solely on 
   - Add explanations for analysis choices.
 
 ### **January 2-10, 2025**
-- Finalize all findings and write the project report:
+- Finalize all findings and write the project report which consists slides:
   - Summarize key insights and interpretations.
   - Highlight limitations and challenges faced during the analysis.
 
 - Prepare for the final submission:
   - Review all scripts and ensure reproducibility.
-  - Organize the repository with clear folder structures for scripts, data, and visualizations.
+  - Organize the repository with clear folder structures for  data, and visualizations.
 
 ### **January 10, 2025**
-- Submit the finalized project material, including the project report, analysis scripts, and visualizations, to SuCourse.
+- Submit the finalized project material, including the project slides, analysis scripts, and visualizations, to SuCourse.
 
 ---
 
