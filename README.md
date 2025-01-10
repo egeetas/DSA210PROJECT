@@ -13,7 +13,8 @@ The hypothesis tested in this project is:
 ## **Table of Contents**
 - [Motivation](#motivation)  
 - [Data Source](#data-source)  
-- [Plan](#plan)  
+- [Plan](#plan)
+- [Findings](#findings)
 - [Limitations](#limitations)
 
 ---
