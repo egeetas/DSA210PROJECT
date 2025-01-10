@@ -31,7 +31,7 @@ How can my walking distances and habbits change according to time spent at house
 
 ## **Data Source**
 
-The walking distance data was collected from the Apple Health app, covering a period from **October 28, 2019** to **November 22, 2024**. The dataset includes:
+The walking distance data was collected from the Apple Health app, covering a period from **October 28, 2019** to **January 5, 2025**. The dataset includes:
 - **Date:** To distinguish between weekdays and weekends.  
 - **Walking Distance (km):** The total walking distance logged each day.
 
