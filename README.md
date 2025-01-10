@@ -14,7 +14,6 @@ The hypothesis tested in this project is:
 - [Motivation](#motivation)  
 - [Data Source](#data-source)  
 - [Plan](#plan)  
-- [Findings (Preliminary)](#findings-preliminary)  
 - [Limitations](#limitations)
 
 ---
