@@ -24,8 +24,8 @@ The hypothesis tested in this project is:
 Physical activity plays a vital role in maintaining a healthy lifestyle. Tracking walking distance provides valuable insights into daily routines and their impact on overall activity levels. This project originates from my curiosity about how my weekday and weekend routines influence my walking habits. 
 
 By analyzing this data, I aim to:
-1. Understand the effect of structured school schedules on physical activity.  
-2. Gain personal insights to adjust my habits for a healthier lifestyle.
+Gain personal insights to adjust my habits for a healthier lifestyle.
+How can my walking distances and habbits change according to time spent at house at weekends.
 
 ---
 
@@ -90,4 +90,5 @@ The dataset was anonymized to protect sensitive information, focusing solely on 
 ## **Limitations**
 
 1. **Data Scope:** Focused only on walking distances; other physical activities like gym workouts are excluded.  
-2. **Sample Size:** The dataset is limited to my personal activity, making generalization difficult.  
+2. **Sample Size:** The dataset is limited to my personal activity, making generalization difficult.
+3. **Data Misunderstanding:** The data which consists 2019 is a bit problematic since the data from the 2019 only consists the last month of 2019 and it is the pandemic year so it can manipulate the hypothesis testing.
